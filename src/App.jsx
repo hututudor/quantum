@@ -29,6 +29,44 @@ class App extends Component {
             Quaerat animi error excepturi?
           </p>
         </div>
+        <div className="features">
+          <h1>What do we offer?</h1>
+          <div className="row">
+            <div className="col-md-4">
+              <div className="card">
+                <h1>Fast</h1>
+                <p>It is very fast, I promise</p>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="card">
+                <h1>Fast</h1>
+                <p>It is very fast, I promise</p>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="card">
+                <h1>Fast</h1>
+                <p>It is very fast, I promise</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="footer">
+          <div className="row">
+            <div className="col-md-4 contact">
+              <i className="fab fa-facebook" />
+              <i className="fas fa-envelope" />
+            </div>
+
+            <div className="col-md-4 copyright">
+              <h1>Copyright {'\u00a9'} Quantum</h1>
+            </div>
+            <div className="col-md-4 copyright">
+              <h1>Made by Hutu Tudor</h1>
+            </div>
+          </div>
+        </div>
       </React.Fragment>
     );
   }

@@ -46,3 +46,60 @@
     font-size: 1.8rem;
   }
 }
+
+.features {
+  padding: 4rem 4rem;
+  color: $color-grey-dark;
+  text-align: center;
+  font-size: 3.5rem;
+
+  .row {
+    padding: 4rem 0;
+  }
+
+  .card {
+    font-size: 2rem;
+    margin: 0 4rem;
+    padding: 2rem;
+    color: $color-grey-light-1;
+    background: linear-gradient(
+      to right bottom,
+      rgba($color-primary, 0.7),
+      rgba($color-primary-light, 0.7)
+    );
+    box-shadow: 0 1rem 1rem rgba($color-black, 0.5);
+    transition: all 0.2s;
+
+    &:hover {
+      transform: translateY(-1rem);
+      box-shadow: 0 1.3rem 2rem rgba($color-black, 0.5);
+    }
+  }
+}
+
+.footer {
+  background: $color-grey-dark-3;
+  color: $color-grey-light-1;
+  padding: 4rem 4rem;
+
+  .contact {
+    text-align: center;
+    font-size: 3rem;
+
+    i {
+      padding: 1rem;
+
+      &:hover {
+        font-size: 3rem;
+        color: $color-grey-light-3;
+      }
+    }
+  }
+
+  .copyright,
+  .made {
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+  }
+}
